@@ -176,7 +176,8 @@ hr {
 
     /**************** GET INVOLVED style ****************/
     #get-involved p {
-        font-size: 1.13rem !important;
+        padding: 0px 10px 0px 10px;
+        font-size: 1.10rem !important;
     }
 
 

@@ -1,0 +1,9 @@
+ECF - C2 : One Millions Lines
+
+- Style :
+	- Changement de couleur du texte et du fond des boutons
+	  lorsque que survolé par la souris
+
+	- Modification de la taille des boutons lors d'un clic
+
+	- Ajout d'une ombre sur les boutons dans la section "GET-INVOLVED"
