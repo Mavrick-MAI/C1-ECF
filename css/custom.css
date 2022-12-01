@@ -1,0 +1,192 @@
+/**************** General style rules ****************/
+
+/* Font class */
+.arvo-font {
+    font-family: 'Arvo', sans-serif;
+}
+
+/* Theme color */
+.theme-text-color {
+    color: #e74c3c;
+}
+
+#home button, #footer {
+    background-color: #e74c3c;
+}
+
+/* Separator width */
+hr {
+    width: 150px !important;
+}
+
+
+/**************** Nav bar style ****************/
+.nav-link:hover {
+    color: #e74c3c !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/**************** Jumbotron style ****************/
+
+#home {
+    background-image: url("../images/hero-image.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+
+#home p {
+    font-family: sans-serif;
+}
+
+#home button:hover {
+    background-color: white;
+    color: #e74c3c !important;
+}
+
+#home button:active {
+    transform: scale(0.95);
+}
+
+#home img {
+    width: 110px;
+}
+
+
+/**************** GET INVOLVED style ****************/
+
+.fa-circle {
+    color: #333333;
+}
+
+#get-involved button:hover {
+    background-color: #e74c3c !important;
+    color: white !important;
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+#get-involved button:active {
+    transform: scale(0.95);
+}
+
+
+/**************** FOOTER ****************/
+#footer .row {
+    height: 180px;
+}
+
+
+/**************** BACK TO TOP style ****************/
+#back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    /* Laptop display */
+    
+    /**************** Jumbotron style ****************/
+    #home h1 {
+        font-size: 3.5rem;
+    }
+
+    #home p {
+        font-size: 1.25rem !important;
+    }
+
+
+    /**************** WHO WE ARE style ****************/
+    #who p {
+        font-size: 1.15rem !important;
+    }
+
+
+    /**************** GET INVOLVED style ****************/
+    #get-involved p {
+        font-size: 1.33rem !important;
+    }
+
+    #get-involved button {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* Tablet display */
+    
+    /**************** Jumbotron style ****************/
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home p {
+        font-size: 1.1rem !important;
+    }
+
+    #home button {
+        font-size: 1.75rem !important;
+    }
+
+    #home img {
+        width: 90px;
+    }
+
+    
+    /**************** WHO WE ARE style ****************/
+    #who p {
+        font-size: 1.25rem !important;
+    }
+
+
+    /**************** GET INVOLVED style ****************/
+    #get-involved p {
+        font-size: 1.23rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Smartphone display */
+    
+    /**************** Jumbotron style****************/
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 0.87rem !important;
+    }
+
+    #home button {
+        font-size: 1rem !important;
+    }
+
+
+    /**************** WHO WE ARE style ****************/
+    #who p {
+        font-size: 1.08rem !important;
+    }
+
+
+    /**************** GET INVOLVED style ****************/
+    #get-involved p {
+        font-size: 1.13rem !important;
+    }
+
+
+    /**************** FOOTER ****************/
+    #footer .row {
+        height: 225px;
+    }
+
+    #footer img {
+        height: 80px;
+    }  
+}
+
